@@ -16,8 +16,8 @@ This repository contains a C program that simulates a pendulum's movement with e
 ### How to Use
 
 1. **Clone the Repository:** Get the code onto your computer by copying this repository (`git clone https://github.com/your-username/simple-c-pendulum-simulation.git`).
-2. **Open Terminal:** Launch your terminal and navigate to the repository folder (`cd simple-c-pendulum`).
-3. **Compile and Run:** Use the Clang compiler to turn `main.c` into a program (`clang main.c -o pendulum -lSDL2`). Then, start the simulation (`./pendulum`).
+2. **Open Terminal:** Launch your terminal and navigate to the repository folder (`cd simple-c-pendulum-simulation`).
+3. **Compile and Run:** Use the Clang compiler to turn `main.c` into a program (`clang main.c main.h -o pendulum -lSDL2`). Then, start the simulation (`./pendulum`).
 4. **Follow On-Screen Steps:** The program will guide you through the setup, and you'll be able to see the pendulum simulation. The simulation details will be saved in the `log.txt` file.
 
 ### What You Need
